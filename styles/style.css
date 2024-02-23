@@ -1,0 +1,346 @@
+/* commn shared styles */
+
+body{
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+.banner-greeting{
+    font-family: "Merriweather", serif;
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;    
+    font-size: 32px;   
+}
+.banner-title{
+    font-family: "Merriweather", serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* header related styles */
+
+header{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png"); 
+    border: 0px;
+    border-radius: 16px;
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+}
+.banner-greeting{
+    padding: 177px 530px 0px 530px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    padding-top: 0px 344px 177px 344px;
+    margin-top: 20px;
+}
+
+/* holyday deals related styles */
+
+.holiday-deals{
+    margin: 120px auto;
+}
+.deals-title{
+    font-family: "Inter", sans-serif;
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.deals-description{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    margin: 0px;
+}
+.deals-categories{
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+.holiday-deals img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+}
+
+/* midnight party related styles */
+
+.midnight-party{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+    border: 0px;
+    border-radius: 16px;
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+}
+.midnight-content{
+    margin-right: 126px;
+}
+.midnight-title{
+    font-family: "Merriweather", serif;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;  
+    padding: 126px 552px 0px 126px;
+}
+.midnight-description{
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 297px 48px 126px;
+}
+.midnight-btn{
+    font-family: "Inter", sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 1059px 142px 158px;
+    border: none;
+    background: none;
+}
+
+/* Venue related styles */
+
+.venue{
+    width: 1320px;
+    height: 482px;
+    background: #FF0000;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px auto;
+    border: 0px;
+    border-radius: 16px;
+}
+.venue-description{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.venue-keys{
+    color: #F00;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 0px;
+}
+.venue-btn{
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    margin: 48px auto;
+
+}
+.date-n-place{
+    text-align: center;
+    padding: 100px 386px 48px 385px;
+}
+
+/* Sale related styles */
+
+.sale{
+    margin-top: 120px;
+    text-align: center;
+}
+.sale-heading{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+.sale-title{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top:0px;
+}
+.holidays{
+    color: #F00;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sale-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top:0px;
+    width: 900px;
+    height: 96px;
+    margin: 0px auto;
+}
+
+/* Portfolio related styles */
+
+.portfolio{
+    width: 1320px;
+    margin: 120px auto;
+}
+.portfolio-text{
+    width: 895px;
+}
+.portfolio-heading{
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.portfolio-title{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.portfolio-img-container{
+    width: 1320px;
+    display: inline-block;
+    gap: 24px;
+}
+.portfolio-img{
+    width: 380px;
+    height: 400px;
+    border-radius: 16px;
+    padding: 28px;    
+}
+
+/* newsletter related styles */
+
+.news-letter{
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.subscribe-img{
+    margin: 80px auto 0px auto;
+}
+.news-letter-title{
+    color: #070211;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.news-letter-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 20px;   
+}
+.news-letter-subscribe{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe-btn{   
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    position: absolute;
+    left: 900px;
+}
+
+/* Footer related styles */
+
+footer{
+    width: auto;
+    height: 609px;
+    background: #070211;   
+    margin: 120px auto; 
+}
+.footer-text-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 40px 120px;
+}
+.footer-phone{
+    padding-bottom: 0px;
+}
+#footer-email{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0px 120px;
+}
+.icon-container{
+    text-align: center;
+    margin: 48px auto;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px; 
+}
